@@ -1,4 +1,5 @@
 transformers
 Flask
 numpy
+MKLpy
 torch
