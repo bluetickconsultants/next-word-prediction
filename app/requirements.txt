@@ -1,6 +1,4 @@
 transformers
 Flask
 numpy
-MKLpy
-torchvision
 torch 
