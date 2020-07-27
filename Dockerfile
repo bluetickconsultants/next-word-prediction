@@ -4,7 +4,6 @@ WORKDIR /app
 ADD ./app /app
 
 RUN pip install --upgrade pip
-RUN pip install torch
 # install requirements
 RUN pip install -r requirements.txt
 CMD ["python","app.py"]
