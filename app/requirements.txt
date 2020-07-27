@@ -1,4 +1,4 @@
-torch
+pytorch
 transformers
 Flask
 numpy
