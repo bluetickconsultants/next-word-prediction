@@ -1,9 +1,4 @@
 transformers
 Flask
-numpy
-torch-scatter
-torch-sparse
-torch-cluster
-torch-spline-conv
-torch-geometric
-torch
+numpytorch==1.3.0+cpu 
+torchvision==0.4.1+cpu
