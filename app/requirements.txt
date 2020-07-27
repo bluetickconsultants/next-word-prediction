@@ -1,4 +1,3 @@
 transformers
 Flask
 numpy
-torch 
