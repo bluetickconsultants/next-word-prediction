@@ -1,4 +1,4 @@
 transformers
 Flask
-numpytorch==1.3.0+cpu 
-torchvision==0.4.1+cpu
+numpytorch>=1.3.0+cpu 
+torchvision>=0.4.1+cpu
