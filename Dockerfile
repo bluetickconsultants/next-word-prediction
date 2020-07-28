@@ -2,10 +2,18 @@ FROM python:3.6
 
 WORKDIR /app
 ADD ./app /app
-RUN apt-get update -y
+RUN apt-get update \
+ && apt-get install -y \
+    build-essential git gfortran \
+    python3 python3-setuptools python3-dev \
+    cmake curl wget unzip libreadline-dev libjpeg-dev libpng-dev ncurses-dev \
+    imagemagick gnuplot gnuplot-x11 libssl-dev libzmq3-dev graphviz
 
-RUN curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-RUN apt-get install -y python3-venv
+ARG TORCH_DISTRO_COMMIT=$DEFAULT_TORCH_DISTRO_COMMIT
+RUN git clone https://github.com/torch/distro.git ~/torch --recursive \
+ && cd ~/torch \
+ && git checkout "$TORCH_DISTRO_COMMIT" \
+ && ./install.sh
 
 RUN pip install --upgrade pip
 # install requirements
