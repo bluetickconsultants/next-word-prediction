@@ -41,11 +41,11 @@ RUN conda install -y -c pytorch \
     "torchvision=0.5.0=py36_cu101" \
  && conda clean -ya
  
-ADD ./app /app
+ADD ./app .
 
 RUN pip install --upgrade pip
 # install requirements
 RUN pip install -r requirements.txt
 
 # Set the default command to python3
-CMD ["python3", "app.py"]
+CMD ["python3"]
