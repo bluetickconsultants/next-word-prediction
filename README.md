@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/88481845/214543217-39d81c29-66fe-465f-ad4b-a9404e97b5e5.jpg">
+</div>
+
+<hr>
+
 # Next word prediction
 
 Next word prediction, also referred as Language Modelling, is the process of predicting what word or multiple words come next in an application involving the basic task of typing. 
