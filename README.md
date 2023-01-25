@@ -8,17 +8,14 @@ Next word prediction is an application that uses transformers models to predict 
 
 # Steps used by a computer to translate the human languages
 
-https://user-images.githubusercontent.com/88481845/214533950-d2cf7d34-5ef4-4af6-9a07-8a14f64c72a2.jpg
+![analysis](https://user-images.githubusercontent.com/88481845/214537024-7e9f3c57-9ddd-4d53-aa10-22ccc0a893cc.jpg)
+
 
 **Lexical or Linguistic** analysis helps in understanding the structure and meaning of the text and is then transformed into a rule based machine learning algorithm that can solve problems and complete the desired tasks.
 
 **The Syntactic analyzer** identifies the dependence and relationship between the words. Any logically or naturally incorrect arrangement is rejected during syntactic processing. The sentence “ A class is taking the student.” will be rejected by the analyzer.
 
-Breaking down a string of words into meaningful and useful parts is called tokenization. This is followed by Part of Speech Tagging (PoS) which segregates each word into noun, pronoun, verb,adverb, punctuation, adjectives etc. This helps in identifying relationships among the words and simplifies the meaning of the sentences.
-
-The process of discourse integration has two major parts known as Dependency and Constituency Parsing.
-
-Dependency parsing defines the grammatical structure of a sentence by listing each word as a node and attaches links to its dependents, thus forming a tree-like structure.
+**Dependency parsing** defines the grammatical structure of a sentence by listing each word as a node and attaches links to its dependents, thus forming a tree-like structure.
 
 **Discourse integration** helps with the arrangement and ordering of the sentences as it interlinks the previous sentence with the current sentence. This enables in interlinking a number of sentences and deriving the complete meaning of these paragraphs.
 
