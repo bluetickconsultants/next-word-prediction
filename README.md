@@ -28,7 +28,7 @@ Dependency parsing defines the grammatical structure of a sentence by listing ea
 
 https://user-images.githubusercontent.com/88481845/214534599-e20c643c-1c2f-497f-8776-894f12f8bfbf.mp4
 
-### Running
+### How to use this repository
 
 NOTE: The first load take a long time since the application will download all the models. Beside 6 models running, inference time is acceptable even in CPU.
 
@@ -38,6 +38,15 @@ python app.py
 
 Open your browser http://localhost:8000
 
+
+## Useful Information
+
+### References
+- [Next word prediction](https://www.bluetickconsultants.com/next-word-prediction.html)
+
+## Author
+
+- [Bluetick Consultants LLP](https://www.bluetickconsultants.com/)
 
 
 
