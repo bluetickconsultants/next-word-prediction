@@ -1,3 +1,7 @@
+<h1 align="center">Multi-label classification using Transfer Learning techniques </h1>
+
+<hr>
+
 <div align="center">
   <img src="https://user-images.githubusercontent.com/88481845/214543217-39d81c29-66fe-465f-ad4b-a9404e97b5e5.jpg">
 </div>
@@ -50,7 +54,7 @@ Open your browser http://localhost:8000
 ## Author
 
 - [Bluetick Consultants LLP](https://www.bluetickconsultants.com/)
-
+<img src="https://user-images.githubusercontent.com/88481845/215745914-16aa10a5-f24b-4fa9-b1be-432454487788.png" width="50%">
 
 
 
