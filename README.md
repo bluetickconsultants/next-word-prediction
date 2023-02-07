@@ -1,4 +1,4 @@
-<h1 align="center">Multi-label classification using Transfer Learning techniques </h1>
+<h1 align="center">Next word prediction </h1>
 
 <hr>
 
